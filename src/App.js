@@ -50,8 +50,8 @@ function App() {
           {orders.map((order) => (
             <Request key={order.id}>
               <div className="listOrder">
-                <p className=".order-client">{order.clientOrder}</p>
-                <p className=".name-client">{order.clientName}</p>
+                <p className=".order-client">{order.request}</p>
+                <p className=".name-client">{order.name}</p>
               </div>
               <button>
                 <img alt="lata-de-lixo" src={Trash} />

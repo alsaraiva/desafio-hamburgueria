@@ -109,7 +109,6 @@ export const Request = styled.li`
     gap: 20px;
   }
   .order-client {
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
@@ -118,8 +117,7 @@ export const Request = styled.li`
   }
 
   .name-client {
-    font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: #ffffff;
