@@ -3,14 +3,9 @@ import { useHistory } from "react-router-dom";
 import axios from "axios";
 import ImageTwo from "../../assets/img 02.svg";
 import Trash from "../../assets/trash.svg";
-import {
-  Container,
-  H1,
-  Image,
-  ContainterItens,
-  Button,
-  Request,
-} from "./styles";
+import H1 from "../../components/Title";
+
+import { Container, Image, ContainterItens, Button, Request } from "./styles";
 
 function Orders() {
   const [orders, setOrders] = useState([]);

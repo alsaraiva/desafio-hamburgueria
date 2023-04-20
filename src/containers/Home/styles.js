@@ -19,15 +19,6 @@ export const ContainterItens = styled.div`
   flex-direction: column;
 `;
 
-export const H1 = styled.h1`
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 33px;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 76px;
-`;
-
 export const InputLabel = styled.p`
   font-style: normal;
   font-weight: bold;
